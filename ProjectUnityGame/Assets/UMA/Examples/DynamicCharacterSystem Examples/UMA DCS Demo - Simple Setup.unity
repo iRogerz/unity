@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14193936, g: 0.1492411, b: 0.16823734, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &4
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -692,7 +692,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &160506511
 GameObject:
@@ -796,152 +796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcffb0a198605474c8a4d1c67c1515fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  context: {fileID: 1181637316}
-  umaData: {fileID: 0}
-  umaRecipe: {fileID: 0}
-  umaAdditionalRecipes:
-  - {fileID: 11400000, guid: 1f292487d7383514f97c491cadfb0442, type: 2}
-  umaGenerator: {fileID: 0}
-  animationController: {fileID: 0}
-  CharacterCreated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  CharacterBegun:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  CharacterDestroyed:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  CharacterUpdated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  CharacterDnaUpdated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  RecipeUpdated:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UMA.UMADataEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  hide: 0
-  loadBlendShapes: 0
-  activeRace:
-    name: HumanMale
-  defaultChangeRaceOptions: 8
-  cacheCurrentState: 1
-  rebuildSkeleton: 0
-  preloadWardrobeRecipes:
-    loadDefaultRecipes: 1
-    recipes:
-    - _recipeName: FemaleUndies2
-      _compatibleRaces:
-      - HumanFemaleDCS
-      - HumanFemale
-    - _recipeName: MaleUnderwear
-      _compatibleRaces:
-      - HumanMale
-      - HumanMaleDCS
-  raceAnimationControllers:
-    defaultAnimationController: {fileID: 9100000, guid: eb280940c811fab4a9e3ddf09381c343,
-      type: 2}
-    animators:
-    - raceName: ToonFemale
-      animatorControllerName: IdleTest-w-head
-      animatorController: {fileID: 0}
-    - raceName: HumanMaleDCS
-      animatorControllerName: Locomotion with Head
-      animatorController: {fileID: 0}
-    - raceName: HumanFemaleResources
-      animatorControllerName: Locomotion with Head
-      animatorController: {fileID: 0}
-    dynamicallyAddFromResources: 0
-    resourcesFolderPath: 
-    dynamicallyAddFromAssetBundles: 1
-    assetBundleNames: 
-  characterColors:
-    _colors:
-    - name: Hair
-      channelMask:
-      - {r: 0.3529412, g: 0.21568629, b: 0.14117648, a: 1}
-      - {r: 1, g: 1, b: 1, a: 1}
-      - {r: 1, g: 1, b: 1, a: 1}
-      channelAdditiveMask:
-      - {r: 0, g: 0, b: 0, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      _name: 
-      _color: {r: 0.3529412, g: 0.21568629, b: 0.14117648, a: 1}
-      _metallicGloss: {r: 0, g: 0, b: 0, a: 0}
-      valuesConverted: 0
-    - name: Eyes
-      channelMask:
-      - {r: 0.28627452, g: 0.40784317, b: 1, a: 1}
-      - {r: 1, g: 1, b: 1, a: 1}
-      - {r: 1, g: 1, b: 1, a: 1}
-      channelAdditiveMask:
-      - {r: 0, g: 0, b: 0, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      _name: 
-      _color: {r: 0.28627452, g: 0.40784317, b: 1, a: 1}
-      _metallicGloss: {r: 0, g: 0, b: 0, a: 0}
-      valuesConverted: 0
-    - name: Skin
-      channelMask:
-      - {r: 0.9338235, g: 0.9185755, b: 0.88575906, a: 1}
-      - {r: 1, g: 1, b: 1, a: 1}
-      - {r: 1, g: 1, b: 1, a: 1}
-      channelAdditiveMask:
-      - {r: 0, g: 0, b: 0, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      _name: 
-      _color: {r: 0.9632353, g: 0.82158303, b: 0.82158303, a: 1}
-      _metallicGloss: {r: 0, g: 0, b: 0, a: 0}
-      valuesConverted: 0
-    - name: Pants1
-      channelMask:
-      - {r: 0.3529412, g: 0.4156863, b: 0.6392157, a: 1}
-      - {r: 1, g: 1, b: 1, a: 1}
-      - {r: 1, g: 1, b: 1, a: 1}
-      channelAdditiveMask:
-      - {r: 0, g: 0, b: 0, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      - {r: 0, g: 0, b: 0, a: 0}
-      _name: 
-      _color: {r: 0.3529412, g: 0.4156863, b: 0.6392157, a: 1}
-      _metallicGloss: {r: 0, g: 0, b: 0, a: 0}
-      valuesConverted: 0
-  loadPathType: 2
-  loadPath: CharacterRecipes
-  loadFilename: 
-  loadString: 
-  loadFileOnStart: 1
-  waitForBundles: 0
-  defaultLoadOptions: 31
-  savePathType: 0
-  savePath: CharacterRecipes
-  saveFilename: 
-  makeUniqueFilename: 0
-  ensureSharedColors: 0
-  defaultSaveOptions: 15
-  BoundsOffset: {x: 0, y: 0, z: 0}
-  showPlaceholder: 1
-  previewModel: 0
-  customModel: {fileID: 0}
-  customRotation: {x: 0, y: 0, z: 0}
-  previewColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  _buildCharacterEnabled: 1
 --- !u!4 &160506514
 Transform:
   m_ObjectHideFlags: 0
@@ -953,7 +807,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!1 &177980829
 GameObject:
@@ -1056,26 +910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee615ea5939452744bbe365376eb51b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Avatar: {fileID: 160506513}
-  SlotPrefab: {fileID: 174012, guid: 2e092c7e0364f4146964a950c75aadef, type: 2}
-  WardrobePrefab: {fileID: 163902, guid: de4b511078f3ff7418945ae868d38601, type: 2}
-  SlotPanel: {fileID: 1670445103}
-  WardrobePanel: {fileID: 1652783917}
-  ColorPrefab: {fileID: 188482, guid: fd94c65fbe0c64b4d92321a02f6399bf, type: 2}
-  DnaPrefab: {fileID: 118906, guid: 7d9c7d032f5b28c43b841ae989fcdc7a, type: 2}
-  LabelPrefab: {fileID: 132290, guid: 74c2d576c3198124aa40860244423d2d, type: 2}
-  GeneralHelpText: {fileID: 135518292}
-  WardrobeHelpText: {fileID: 1244586306}
-  ColorsHelpText: {fileID: 823496008}
-  DnaHelpText: {fileID: 1770519436}
-  AvatarPrefab: {fileID: 171808, guid: b09ecb6de0f0a6b4e993c4d32f3eaa24, type: 2}
-  Orbiter: {fileID: 1378902866}
-  HairColor: {fileID: 11400000, guid: 919f053338460244f8cad6f535b25680, type: 2}
-  SkinColor: {fileID: 11400000, guid: acbc1db84c5027b4bafb18d920c6b420, type: 2}
-  EyesColor: {fileID: 11400000, guid: 352924d338ca78841832986636fbf5d4, type: 2}
-  ClothingColor: {fileID: 11400000, guid: 9d6638c0673482444a53d5dd707c3acc, type: 2}
-  SkinColors: {fileID: 11400000, guid: 77bea8d4eaa1f0b47acb6086897c8337, type: 2}
-  HairColors: {fileID: 11400000, guid: 898c61493a044a84b8c916c7d4f12480, type: 2}
 --- !u!4 &222486132
 Transform:
   m_ObjectHideFlags: 0
@@ -1087,7 +921,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &252230850
 GameObject:
@@ -1295,6 +1129,35 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 255716615}
+--- !u!1 &280921107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 993763252}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 280921108}
+  - component: {fileID: 1181637316}
+  m_Layer: 0
+  m_Name: Missing Prefab (Dummy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &280921108
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 993763252}
+  m_GameObject: {fileID: 280921107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1697287524}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &394387163
 GameObject:
   m_ObjectHideFlags: 0
@@ -2005,7 +1868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 386a6bba8e6c74f4bbb78772f0b20d3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Panel: {fileID: 1274425894}
 --- !u!114 &812766632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2860,12 +2722,18 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1157492096}
---- !u!114 &1181637316 stripped
+--- !u!114 &1181637316
 MonoBehaviour:
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11470452, guid: fe29e3c90ef88194184c6f3656db5ec5,
     type: 2}
   m_PrefabInternal: {fileID: 993763252}
+  m_GameObject: {fileID: 280921107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1c0397d804a50934daade4356186eaf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!28 &1191149449
 Texture2D:
   m_ObjectHideFlags: 0
@@ -3367,22 +3235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34117dad236f34e94aeede23f2028160, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseButtonToUse: 1
-  target: {fileID: 160506514}
-  distance: 1.5
-  xSpeed: 120
-  ySpeed: 120
-  scrollrate: 3
-  yMinLimit: -20
-  yMaxLimit: 80
-  distanceMin: 0.5
-  distanceMax: 15
-  Offset: {x: 0, y: 0, z: 0}
-  AlwaysOn: 1
-  singleTouchOrbiting: 0
-  pinchToZoom: 0
-  Clip: 0
-  TargetBone: 0
 --- !u!114 &1378902867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3409,7 +3261,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4179,6 +4031,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1645511932}
+--- !u!1 &1651507690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 876363994}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1651507691}
+  m_Layer: 0
+  m_Name: Missing Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1651507691
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 876363994}
+  m_GameObject: {fileID: 1651507690}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1652783917
 GameObject:
   m_ObjectHideFlags: 0
@@ -4302,7 +4182,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000010711825}
+  m_AnchoredPosition: {x: 0, y: -0.000003394378}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1670445105
@@ -4340,6 +4220,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 1
+--- !u!1 &1697287523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 993763252}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1697287524}
+  m_Layer: 0
+  m_Name: Missing Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697287524
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 993763252}
+  m_GameObject: {fileID: 1697287523}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 280921108}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1702273898
 GameObject:
   m_ObjectHideFlags: 0
@@ -4392,7 +4301,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 386a6bba8e6c74f4bbb78772f0b20d3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Panel: {fileID: 1274425894}
 --- !u!114 &1702273901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5098,7 +5006,7 @@ RectTransform:
   - {fileID: 812766630}
   - {fileID: 1274425895}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5327,7 +5235,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
