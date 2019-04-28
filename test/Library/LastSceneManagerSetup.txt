@@ -1,5 +1,4 @@
 sceneSetups:
-- path: Assets/UMA/Examples/DynamicCharacterSystem Examples/UMA DCS Demo - Simple
-    Setup.unity
+- path: Assets/Decrepit Dungeon LITE/EXAMPLE/Demo_Scene.unity
   isLoaded: 1
   isActive: 1
