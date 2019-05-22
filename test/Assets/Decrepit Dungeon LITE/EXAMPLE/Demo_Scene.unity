@@ -23306,6 +23306,41 @@ Prefab:
       propertyPath: context
       value: 
       objectReference: {fileID: 2069051484}
+    - target: {fileID: 114031915767631566, guid: 8d2d721158d5e1d4685583273c00ca19,
+        type: 2}
+      propertyPath: raceAnimationControllers.defaultAnimationController
+      value: 
+      objectReference: {fileID: 9100000, guid: 831b46c503d9add42b15044ab2bac737, type: 2}
+    - target: {fileID: 95635124085664366, guid: 8d2d721158d5e1d4685583273c00ca19,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 831b46c503d9add42b15044ab2bac737, type: 2}
+    - target: {fileID: 114582491057192038, guid: 8d2d721158d5e1d4685583273c00ca19,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136763114991960536, guid: 8d2d721158d5e1d4685583273c00ca19,
+        type: 2}
+      propertyPath: m_Center.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 136763114991960536, guid: 8d2d721158d5e1d4685583273c00ca19,
+        type: 2}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 136763114991960536, guid: 8d2d721158d5e1d4685583273c00ca19,
+        type: 2}
+      propertyPath: m_Height
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 95635124085664366, guid: 8d2d721158d5e1d4685583273c00ca19,
+        type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8d2d721158d5e1d4685583273c00ca19, type: 2}
   m_IsPrefabParent: 0
